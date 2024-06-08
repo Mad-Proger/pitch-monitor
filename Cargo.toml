@@ -2,3 +2,10 @@
 name = "pitch-monitor"
 version = "0.1.0"
 edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+num = "0.4.3"
+plotters = "0.3.6"
+sdl2 = "0.36.0"
+symphonia = "0.5.4"
